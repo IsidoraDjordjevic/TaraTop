@@ -1,0 +1,212 @@
+body {
+ background-image: url("../img/tara3.jpg");
+   background-size: cover;
+    
+	background-attachment: fixed;
+	 background-repeat: no-repeat;
+	 margin:0;
+	 padding:0;
+	 font-family: 'Poppins', sans-serif;
+	 justify-content: center;
+	 align-items: center;
+	
+	 min-height:100vh;
+}
+
+
+.header{
+	
+	height:60px;
+	width:100%;	
+}
+.header img{
+	max-height:100%;
+	max-width:100%;
+	display:block;
+	margin:auto;
+	padding: 10px;
+}
+
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+.navibar  {
+  list-style-type: none;
+  text-align:center;
+  position: -webkit-sticky;
+  font-size: 30px;
+  font-family: "Apple Chancery";
+  font-weight:bold;
+  font-style: italic;
+  
+  
+}
+ li{
+	 display: inline-block;
+	  position:flex;
+
+
+}
+
+
+li a {
+  
+  color: #CC6600;
+  text-align: center;
+  padding: .5em 3em;
+  text-decoration: none;
+}
+.cool-link::after{
+	content: '';
+	display:block;
+	width: 0;
+	height: 2px;
+	background: #2E3C2F;
+	transition: width .3s
+	
+}
+
+.cool-link:hover::after{
+	width:100%;
+	transition: width .3s;
+	
+}
+
+.zaglavlje h2{
+  color: #ffffff;
+  font-size : 50px;
+  font-family:"Apple Chancery";
+  font-weight:bold;
+  text-align: left;
+  padding-left: 20px;
+  line-height: 15px; }
+
+.zaglavlje h3{
+  color: #CC6600;
+  
+  font-size : 30px;
+  font-family:"Apple Chancery";
+  font-weight:bold;
+  text-align: left;
+  padding-left: 20px;
+  line-height: 15px; 
+  }
+.naslov h4{width: 100px;
+	height:50px;
+	margin: 10px;
+	box-sizing:border-box;
+	overflow: hidden;
+	background-color: #CC6600;
+	color: #ffffff;
+	text-align:left;
+	padding-left:20px;
+	font-family:"Apple Chancery";
+    font-weight:bold;
+	font-size:45px;
+	border-radius: 4px;
+	}
+  
+
+.box{
+	position: relative;
+	width: 75%;
+	height:200px;
+	padding-left:10px;
+	margin: 10px;
+	box-sizing:border-box;
+	overflow: hidden;
+	background: rgb(46, 60, 47, .6);
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	
+}
+
+.box p{
+	
+  color: #ffffff;
+  font-family:"Apple Chancery";
+  font-weight:bold;
+  font-size:25px;
+}
+.box3{
+	
+	width:75%;
+	height:70px;
+	padding:0 20px 0 20px;
+	margin: 10px;
+	box-sizing:border-box;
+	overflow: hidden;
+	background-color: #CC6600;}
+
+.box3 .left{float:left;}
+.box3 .right{float:right;}
+
+
+
+.box3 p{
+  color: #ffffff;
+  font-family:"Apple Chancery";
+  font-weight:bold;
+  font-size:25px;
+  
+  }
+
+
+
+.box1{
+	
+    width: 75%;
+	height:200px;
+	padding:20px;
+	margin: 10px;
+	box-sizing:border-box;
+	overflow: hidden;
+	background: rgb(46, 60, 47, .6);
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	
+}
+.box1 p{
+  color: #ffffff;
+  font-family:"Apple Chancery";
+  font-weight:bold;
+  font-size:25px;
+  line-height: 25px;
+  text-align: center;
+  }
+
+
+
+
+
+.box2{position: relative;
+	width: 20%;
+	height:490px;
+	padding:20px;
+	box-sizing:border-box;
+	overflow: hidden;
+	float:right;
+	background: rgb(46, 60, 47, .6);
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	margin-right:20px;
+	
+	}
+.box2 h3{
+	text-align:left;
+	color:#CC6600;
+	font-family:"Apple Chancery";
+    font-weight:bold;
+	font-size:25px;
+}
+.box2 p{
+	color:white;
+	line-height: 20px;
+	font-weight:bold;
+	font-family:"Apple Chancery";
+	}
+
+@media only screen and (max-width:620px) {
+  .box, .box1, .box2, .box3 {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}

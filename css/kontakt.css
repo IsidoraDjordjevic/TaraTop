@@ -1,0 +1,166 @@
+body {
+    background-image: url("../img/tara3.jpg");
+    background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin:0;
+	padding:0;
+	font-family: 'Poppins', sans-serif;
+	justify-content: center;
+	align-items: center;
+	
+	 min-height:100vh;
+}
+
+
+.header{
+	
+	height:60px;
+	width:100%;	
+}
+.header img{
+	max-height:100%;
+	max-width:100%;
+	display:block;
+	margin:auto;
+    padding: 10px;
+}
+
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+.navibar  {
+  list-style-type: none;
+  text-align:center;
+  position:-webkit-sticky;
+  font-size: 30px;
+  font-family: "Apple Chancery";
+  font-weight:bold;
+  font-style: italic;
+  
+  
+}
+ li{
+	 display: inline-block;
+	 position:flex;
+
+
+}
+
+
+li a {
+  
+  color: #CC6600;
+  text-align: center;
+  padding: .5em 3em;
+  text-decoration: none;
+}
+.cool-link::after{
+	content: '';
+	display:block;
+	width: 0;
+	height: 2px;
+	background: #2E3C2F;
+	transition: width .3s
+	
+}
+
+.cool-link:hover::after{
+	width:100%;
+	transition: width .3s;
+	
+}
+
+
+
+
+
+form{
+	margin-top:50px;
+	margin-left:100px;
+	
+}
+
+.form-control{
+	width:600px;
+	background:white;
+	border:none;
+	outline:none;
+	border-bottom: 1px solid white;
+	color: black;
+	font-size:18px;
+	margin-bottom:16px;
+}
+input{
+	height:45px;
+}
+form .submit{
+	background:#CC6600;
+	border-color:transparent;
+	color: #2E3C2F;
+	font-size:20px;
+	font-weight:bold;
+	letter-spacing:2px;
+	height:50px;
+	margin-top:20px;
+	
+}
+
+form .submit:hover{
+	background-color:#f44336;
+	cursor:pointer;
+}
+
+
+.box{
+
+	font-family:"Apple Chancery";
+}
+.box h2{
+	color:white;
+}
+.box p{
+	width:600px;
+	background:rgb(46, 60, 47, .6);
+	border:none;
+	outline:none;
+	font-size:15px;
+	margin-bottom:10px;
+	color:#CC6600;
+	
+}
+.split {
+  height: 80%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top:1;
+  overflow-x: hidden;
+  
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+ 
+  
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
